@@ -1,0 +1,17 @@
+conda create -n ml-zoomcamp python=3.11
+conda activate ml-zoomcamp
+conda install numpy pandas scikit-learn seaborn jupyter
+import numpy
+import pandas
+import sklearn
+import seaborn
+
+print("✅ All packages are working!")
+exit()
+import numpy; print("NumPy:", numpy.__version__)
+import pandas; print("Pandas:", pandas.__version__)
+import sklearn; print("scikit-learn:", sklearn.__version__)
+import seaborn; print("Seaborn:", seaborn.__version__)
+print("All packages are working!")
+
+
